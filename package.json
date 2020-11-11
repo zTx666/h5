@@ -1,0 +1,42 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -D",
+    "dev": "webpack-dev-server  --config ./webpack.config.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "html-withimg-loader": "^0.1.16",
+    "json-loader": "^0.5.7",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "mini-css-extract-plugin": "^1.2.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "expose-loader": "^1.0.1",
+    "jquery": "^3.5.1"
+  }
+}

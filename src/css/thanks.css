@@ -1,0 +1,95 @@
+
+.title{
+    position: absolute;
+    top: 30px;
+    z-index: 3;
+}
+.ge_xian{
+    width: 40%;
+    height: 3px;
+    display: block;
+    border-radius: 50%;
+    background: linear-gradient(to right ,white,gray,white);
+    opacity: 0.5;
+}
+.bg{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg_1.gif");
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.card{
+    position: absolute;
+    left: 0;
+    top: -70px;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg_2.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: none;
+}
+.mosk{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: -2;
+}
+.pointer{
+    position: absolute;
+    bottom:12%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+    z-index: 4;
+}
+#get_gift{
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+    padding: 8px 32px;
+    background: linear-gradient(to right,#E2CD82,#D5BE74,#E2CD82);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    display: none;
+    margin-top: 100%;
+}
+.curser{
+    width: 4rem;
+    height: 4rem;
+    margin: 5px 0;
+    animation: fudong 1000ms infinite linear;
+}
+@keyframes fudong{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(5px); 
+    }
+    50%{
+        transform: translateY(0px); 
+    }
+    75%{
+        transform: translateY(-5px); 
+    }
+    100%{
+        transform: translateY(0px); 
+    }
+}
+
+
